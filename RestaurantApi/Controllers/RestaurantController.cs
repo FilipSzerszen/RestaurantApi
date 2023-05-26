@@ -1,101 +1,73 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-
-using AutoMapper;
+﻿using System.Collections.Generic;
 
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 using RestaurantApi.Entities;
 using RestaurantApi.Models;
+using RestaurantApi.Services;
 
 namespace RestaurantApi.Controllers
 {
     [Route("api/restaurant")]
     public class RestaurantController : ControllerBase
     {
-        private readonly RestaurantDbContext _dbContext;
-        private readonly IMapper _mapper;                                           // <- tu dodajemy dodatkowe pole -|
-        public RestaurantController(RestaurantDbContext dbContext, IMapper mapper)  // <-wstrzykujemy w konstruktor  -|
-        {                                                                           //                 mapper         |
-            _dbContext = dbContext;                                                 //                                |
-            _mapper = mapper;                                                       // <- tu przypisujemy mapper     -|
+        public IRestaurantService _restaurantService;
+
+        public RestaurantController(IRestaurantService restaurantService)
+        {
+            _restaurantService = restaurantService;
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Modify([FromRoute] int id, [FromBody] ModifyRestaurantDto modDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var isModified = _restaurantService.Modify(id, modDto);
+
+            if (isModified) return Ok(); 
+            return NotFound();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete([FromRoute] int id)
+        {
+            var isDeleted = _restaurantService.Delete(id);
+
+            if (isDeleted) return NoContent(); // No content nic nie zwraca ale jest z kategorii 200
+            return NotFound();
         }
 
         [HttpPost]
         public ActionResult CreateRestaurant([FromBody] CreateRestaurantDto dto)
         {
-            if(!ModelState.IsValid)     // sprawdzenie poprawności przesłanych danych
+            if (!ModelState.IsValid)                //  <--- walidacja modeluotrzymanego od usera
             {
                 return BadRequest(ModelState);
             }
-            var restaurant = _mapper.Map<Restaurant>(dto); //mapowanie obiektu dto na obiekt Restaurant
-            _dbContext.Restaurants.Add(restaurant);
-            _dbContext.SaveChanges();
 
-            return Created($"/api/restaurant/{restaurant.Id}", null);
+            var id = _restaurantService.Create(dto);
+            return Created($"/api/restaurant/{id}", null);
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<Restaurant>> GetAll()
         {
-            var restaurants = _dbContext
-                .Restaurants
-                .ToList();
-
-            return Ok(restaurants);
+            var restaurantsDtos = _restaurantService.GetAll();
+            return Ok(restaurantsDtos);
         }
 
-        [HttpGet("{RestaurantId}")]                                 // proste zapytanie
-        public ActionResult<Restaurant> GetOne([FromRoute] int RestaurantId)
+        [HttpGet("{RestaurantId}")]
+        public ActionResult<RestaurantDto> Get([FromRoute] int RestaurantId)
         {
-            var restaurant = _dbContext
-                .Restaurants
-                //.Select(r=>new {r.Id, r.Name, r.Description})       //selektor danych
-                .FirstOrDefault(i => i.Id == RestaurantId);
+            var restaurant = _restaurantService.GetById(RestaurantId);
 
             if (restaurant == null) return NotFound();
+
             return Ok(restaurant);
-        }
-
-        [HttpGet("getdto")]
-        public ActionResult<IEnumerable<RestaurantDto>> GetAllForDto()
-        {
-            var restaurants = _dbContext
-                .Restaurants                                // <- zaincludować tabele   ------------------|
-                .Include(r=>r.Address)
-                .Include(d=>d.Dishes)
-                .ToList();
-
-            var restaurantsDto = _mapper.Map<List<RestaurantDto>>(restaurants);
-
-            return Ok(restaurantsDto);
-        }
-
-        [HttpGet("getdto/{RestaurantId}")]              // zapytanie z DTO (data transfer object)
-        public ActionResult<RestaurantDto> GetDto([FromRoute] int RestaurantId)
-        {
-            //var restaurant = _dbContext
-            //.Restaurants;
-            //.Select(r => new                                // pierwsza opcja ale upierdliwa
-            //{
-            //    Name = r.Name,
-            //    Category = r.Category,
-            //    City = r.Address.City,
-            //    Street = r.Address.Street,                                                                A
-            //    PostalCode = r.Address.PostalCode                                                         |
-            //});                                                                                           |
-            var restaurant = _dbContext                     // <- opcja druga za pomocą mappera, dodajemy --|
-                .Restaurants                                //     i nie zapomnieć o serwisie mappera w klasie startup!!!
-                .FirstOrDefault(i => i.Id == RestaurantId);
-
-            if (restaurant == null) return NotFound();
-
-            var restaurantsDto = _mapper.Map<RestaurantDto>(restaurant);
-            return Ok(restaurantsDto);
-
         }
     }
 }
