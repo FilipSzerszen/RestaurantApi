@@ -9,7 +9,8 @@ using RestaurantApi.Services;
 namespace RestaurantApi.Controllers
 {
     [Route("api/restaurant")]
-    public class RestaurantController : ControllerBase
+    [ApiController]                                         // <- ten atrybut sprawdza walidację przychodzących zapytań  |
+    public class RestaurantController : ControllerBase      //    dla którego istnieje walidacja modelu    zastępuje to: V
     {
         public IRestaurantService _restaurantService;
 
@@ -21,35 +22,34 @@ namespace RestaurantApi.Controllers
         [HttpPut("{id}")]
         public ActionResult Modify([FromRoute] int id, [FromBody] ModifyRestaurantDto modDto)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            //if (!ModelState.IsValid)         //  <--- walidacja modelu otrzymanego od usera                   <-------|
+            //{
+            //    return BadRequest(ModelState);
+            //}
 
-            var isModified = _restaurantService.Modify(id, modDto);
+            _restaurantService.Modify(id, modDto);
 
-            if (isModified) return Ok(); 
-            return NotFound();
+            return Ok();
         }
 
         [HttpDelete("{id}")]
         public ActionResult Delete([FromRoute] int id)
         {
-            var isDeleted = _restaurantService.Delete(id);
+            _restaurantService.Delete(id);
 
-            if (isDeleted) return NoContent(); // No content nic nie zwraca ale jest z kategorii 200
-            return NotFound();
+            return NoContent(); // No content nic nie zwraca ale jest z kategorii 200
         }
 
         [HttpPost]
         public ActionResult CreateRestaurant([FromBody] CreateRestaurantDto dto)
         {
-            if (!ModelState.IsValid)                //  <--- walidacja modeluotrzymanego od usera
-            {
-                return BadRequest(ModelState);
-            }
+            //if (!ModelState.IsValid)                
+            //{
+            //    return BadRequest(ModelState);
+            //}
 
             var id = _restaurantService.Create(dto);
+
             return Created($"/api/restaurant/{id}", null);
         }
 
@@ -57,6 +57,7 @@ namespace RestaurantApi.Controllers
         public ActionResult<IEnumerable<Restaurant>> GetAll()
         {
             var restaurantsDtos = _restaurantService.GetAll();
+
             return Ok(restaurantsDtos);
         }
 
@@ -64,8 +65,6 @@ namespace RestaurantApi.Controllers
         public ActionResult<RestaurantDto> Get([FromRoute] int RestaurantId)
         {
             var restaurant = _restaurantService.GetById(RestaurantId);
-
-            if (restaurant == null) return NotFound();
 
             return Ok(restaurant);
         }
