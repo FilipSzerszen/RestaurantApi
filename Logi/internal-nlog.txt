@@ -240,3 +240,309 @@
 2023-05-26 14:28:12.4066 Info Configuration initialized.
 2023-05-26 14:28:12.4215 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
 2023-05-26 14:28:12.4215 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:08:53.4296 Info Message Template Auto Format enabled
+2023-05-29 10:08:53.4523 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 10:08:53.5316 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 10:08:53.5316 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 10:08:53.5316 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 10:08:53.5776 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:08:53.6022 Info Configuration initialized.
+2023-05-29 10:08:53.6175 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 10:08:53.6175 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:25:21.2525 Info Message Template Auto Format enabled
+2023-05-29 10:25:21.2625 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 10:25:21.3050 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 10:25:21.3050 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 10:25:21.3050 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 10:25:21.3304 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:25:21.3454 Info Configuration initialized.
+2023-05-29 10:25:21.3507 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 10:25:21.3507 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:26:08.0059 Info Message Template Auto Format enabled
+2023-05-29 10:26:08.0059 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 10:26:08.0502 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 10:26:08.0502 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 10:26:08.0534 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 10:26:08.0736 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:26:08.0845 Info Configuration initialized.
+2023-05-29 10:26:08.0845 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 10:26:08.0845 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:37:08.5075 Info Message Template Auto Format enabled
+2023-05-29 10:37:08.5290 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 10:37:08.7448 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 10:37:08.7448 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 10:37:08.7540 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 10:37:08.8669 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 10:37:08.9084 Info Configuration initialized.
+2023-05-29 10:37:08.9402 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 10:37:08.9416 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 11:01:11.9432 Info Message Template Auto Format enabled
+2023-05-29 11:01:11.9939 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 11:01:12.2984 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 11:01:12.9039 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 11:01:12.9299 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 11:01:13.0072 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 11:01:13.0927 Info Configuration initialized.
+2023-05-29 11:01:13.1392 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 11:01:13.1392 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 11:28:56.5890 Info Message Template Auto Format enabled
+2023-05-29 11:28:56.6175 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 11:28:56.8179 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 11:28:56.8562 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 11:28:56.8700 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 11:28:56.9562 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 11:28:56.9936 Info Configuration initialized.
+2023-05-29 11:28:57.0187 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 11:28:57.0187 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 12:01:42.3242 Info Message Template Auto Format enabled
+2023-05-29 12:01:42.3424 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 12:01:42.4911 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 12:01:42.4911 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 12:01:42.5051 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 12:01:42.6010 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 12:01:42.6463 Info Configuration initialized.
+2023-05-29 12:01:42.6871 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 12:01:42.6939 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:17:07.3620 Info Message Template Auto Format enabled
+2023-05-29 13:17:07.3958 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 13:17:07.5460 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 13:17:07.5460 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 13:17:07.5540 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 13:17:07.6153 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:17:07.6614 Info Configuration initialized.
+2023-05-29 13:17:07.6856 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 13:17:07.6856 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:25:29.4398 Info Message Template Auto Format enabled
+2023-05-29 13:25:29.4554 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 13:25:29.5811 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 13:25:29.5811 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 13:25:29.5811 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 13:25:29.6663 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:25:29.7122 Info Configuration initialized.
+2023-05-29 13:25:29.7446 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 13:25:29.7446 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:45:01.5535 Info Message Template Auto Format enabled
+2023-05-29 13:45:01.5800 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 13:45:01.8452 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 13:45:01.8468 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 13:45:01.8635 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 13:45:01.9526 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:45:02.0104 Info Configuration initialized.
+2023-05-29 13:45:02.0450 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 13:45:02.0518 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:55:08.0510 Info Message Template Auto Format enabled
+2023-05-29 13:55:08.0717 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 13:55:08.2187 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 13:55:08.2187 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 13:55:08.2229 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 13:55:08.3353 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 13:55:08.4867 Info Configuration initialized.
+2023-05-29 13:55:08.5170 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 13:55:08.5185 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:07:09.7840 Info Message Template Auto Format enabled
+2023-05-29 14:07:09.8049 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 14:07:09.9259 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 14:07:09.9259 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 14:07:09.9259 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 14:07:09.9890 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:07:10.0191 Info Configuration initialized.
+2023-05-29 14:07:10.0416 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 14:07:10.0416 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:16:50.4807 Info Message Template Auto Format enabled
+2023-05-29 14:16:50.5017 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 14:16:50.7451 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 14:16:50.7451 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 14:16:50.7451 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 14:16:50.8060 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:16:50.8376 Info Configuration initialized.
+2023-05-29 14:16:50.8712 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 14:16:50.8712 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:24:24.1501 Info Message Template Auto Format enabled
+2023-05-29 14:24:24.1836 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 14:24:25.0934 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 14:24:25.0934 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 14:24:25.1173 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 14:24:25.2258 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:24:25.3600 Info Configuration initialized.
+2023-05-29 14:24:25.4139 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 14:24:25.4139 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:26:18.6632 Info Message Template Auto Format enabled
+2023-05-29 14:26:18.6852 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 14:26:18.8032 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 14:26:18.8032 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 14:26:18.8032 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 14:26:18.8808 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 14:26:18.9192 Info Configuration initialized.
+2023-05-29 14:26:18.9396 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 14:26:18.9408 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:18:03.5515 Info Message Template Auto Format enabled
+2023-05-29 17:18:03.5996 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:18:03.7815 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:18:03.7815 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:18:03.7894 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:18:03.8563 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:18:03.8896 Info Configuration initialized.
+2023-05-29 17:18:03.9101 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:18:03.9101 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:21:17.1721 Info Message Template Auto Format enabled
+2023-05-29 17:21:17.1967 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:21:17.3499 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:21:17.3499 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:21:17.3499 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:21:17.4068 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:21:17.4394 Info Configuration initialized.
+2023-05-29 17:21:17.4569 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:21:17.4569 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:23:40.5465 Info Message Template Auto Format enabled
+2023-05-29 17:23:40.5795 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:23:40.7416 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:23:40.7416 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:23:40.7416 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:23:40.8576 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:23:40.8919 Info Configuration initialized.
+2023-05-29 17:23:40.9227 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:23:40.9227 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:26:22.3303 Info Message Template Auto Format enabled
+2023-05-29 17:26:22.3492 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:26:22.5414 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:26:22.5414 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:26:22.5414 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:26:22.6082 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:26:22.6422 Info Configuration initialized.
+2023-05-29 17:26:22.6602 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:26:22.6602 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:28:08.9936 Info Message Template Auto Format enabled
+2023-05-29 17:28:09.0082 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:28:09.1612 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:28:09.1612 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:28:09.1612 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:28:09.2631 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:28:09.3102 Info Configuration initialized.
+2023-05-29 17:28:09.3463 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:28:09.3463 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:33:42.7422 Info Message Template Auto Format enabled
+2023-05-29 17:33:42.7578 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:33:42.8541 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:33:42.8541 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:33:42.8541 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:33:42.9217 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:33:42.9609 Info Configuration initialized.
+2023-05-29 17:33:42.9895 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:33:42.9895 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:38:19.2378 Info Message Template Auto Format enabled
+2023-05-29 17:38:19.2607 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:38:19.3924 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:38:19.3933 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:38:19.4326 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:38:19.5677 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:38:19.6108 Info Configuration initialized.
+2023-05-29 17:38:19.6771 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:38:19.6771 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:39:17.8474 Info Message Template Auto Format enabled
+2023-05-29 17:39:17.8685 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 17:39:18.0044 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 17:39:18.0044 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 17:39:18.0044 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 17:39:18.0550 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 17:39:18.1027 Info Configuration initialized.
+2023-05-29 17:39:18.1411 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 17:39:18.1434 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:49:10.9790 Info Message Template Auto Format enabled
+2023-05-29 19:49:10.9976 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:49:11.0477 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:49:11.0477 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:49:11.0504 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:49:11.0766 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:49:11.0949 Info Configuration initialized.
+2023-05-29 19:49:11.1020 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:49:11.1020 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:49:29.1686 Info Message Template Auto Format enabled
+2023-05-29 19:49:29.1762 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:49:29.2134 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:49:29.2134 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:49:29.2134 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:49:29.2384 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:49:29.2384 Info Configuration initialized.
+2023-05-29 19:49:29.2557 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:49:29.2557 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:52:00.0149 Info Message Template Auto Format enabled
+2023-05-29 19:52:00.0278 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:52:00.0760 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:52:00.0760 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:52:00.0760 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:52:00.1057 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:52:00.1197 Info Configuration initialized.
+2023-05-29 19:52:00.1197 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:52:00.1197 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:53:07.0302 Info Message Template Auto Format enabled
+2023-05-29 19:53:07.0444 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:53:07.0996 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:53:07.0996 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:53:07.0996 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:53:07.1446 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:53:07.1446 Info Configuration initialized.
+2023-05-29 19:53:07.1616 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:53:07.1616 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:55:40.6275 Info Message Template Auto Format enabled
+2023-05-29 19:55:40.6371 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:55:40.6748 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:55:40.6748 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:55:40.6748 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:55:40.6994 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:55:40.7116 Info Configuration initialized.
+2023-05-29 19:55:40.7116 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:55:40.7116 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:56:44.3251 Info Message Template Auto Format enabled
+2023-05-29 19:56:44.3360 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:56:44.3908 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:56:44.3908 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:56:44.3959 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:56:44.4252 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:56:44.4252 Info Configuration initialized.
+2023-05-29 19:56:44.4478 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:56:44.4478 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:57:56.9687 Info Message Template Auto Format enabled
+2023-05-29 19:57:56.9786 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:57:57.0262 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:57:57.0262 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:57:57.0262 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:57:57.0628 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:57:57.0772 Info Configuration initialized.
+2023-05-29 19:57:57.0820 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:57:57.0820 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:58:34.3589 Info Message Template Auto Format enabled
+2023-05-29 19:58:34.3673 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:58:34.4060 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:58:34.4060 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:58:34.4092 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:58:34.4312 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:58:34.4427 Info Configuration initialized.
+2023-05-29 19:58:34.4427 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:58:34.4427 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:59:05.8307 Info Message Template Auto Format enabled
+2023-05-29 19:59:05.8600 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 19:59:07.3725 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 19:59:07.3725 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 19:59:07.3806 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 19:59:07.4657 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 19:59:07.5222 Info Configuration initialized.
+2023-05-29 19:59:07.5462 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 19:59:07.5462 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 20:34:15.8962 Info Message Template Auto Format enabled
+2023-05-29 20:34:15.9176 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 20:34:16.0764 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 20:34:16.0764 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 20:34:16.0858 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 20:34:16.1883 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 20:34:16.4085 Info Configuration initialized.
+2023-05-29 20:34:16.4357 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 20:34:16.4357 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 21:25:36.6345 Info Message Template Auto Format enabled
+2023-05-29 21:25:36.6590 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-29 21:25:37.9932 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-29 21:25:37.9932 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-29 21:25:38.0187 Info Registered target NLog.Targets.FileTarget(Name=time)
+2023-05-29 21:25:38.1479 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config
+2023-05-29 21:25:38.2503 Info Configuration initialized.
+2023-05-29 21:25:38.4567 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.3.1645. Product version: 5.1.3+0417773cb1619d0920efe3b3f8da9ea398266d30. GlobalAssemblyCache: False
+2023-05-29 21:25:38.4567 Info Validating config: TargetNames=allfile, exceptions, time, ConfigItems=60, FilePath=C:\Users\Filips\source\repos\RestaurantApi\RestaurantApi\bin\Debug\net6.0\NLog.config

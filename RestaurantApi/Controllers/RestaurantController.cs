@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Security.Claims;
 
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 using RestaurantApi.Entities;
@@ -9,6 +11,7 @@ using RestaurantApi.Services;
 namespace RestaurantApi.Controllers
 {
     [Route("api/restaurant")]
+    [Authorize]
     [ApiController]                                         // <- ten atrybut sprawdza walidację przychodzących zapytań  |
     public class RestaurantController : ControllerBase      //    dla którego istnieje walidacja modelu    zastępuje to: V
     {
@@ -48,12 +51,17 @@ namespace RestaurantApi.Controllers
             //    return BadRequest(ModelState);
             //}
 
+            var userId = int.Parse(User.FindFirst(u => u.Type == ClaimTypes.NameIdentifier).Value);
             var id = _restaurantService.Create(dto);
 
             return Created($"/api/restaurant/{id}", null);
         }
 
         [HttpGet]
+        //[Authorize]
+        //[Authorize(Policy = "HasNationality")]  <- można nadać własną zasadę
+        //[Authorize(Policy = "Atleast20")]  //  <- można podać naszą zasadę na sprawdzenie wieku
+        [Authorize(Policy = "MinRestCreated")]
         public ActionResult<IEnumerable<Restaurant>> GetAll()
         {
             var restaurantsDtos = _restaurantService.GetAll();
@@ -62,6 +70,7 @@ namespace RestaurantApi.Controllers
         }
 
         [HttpGet("{RestaurantId}")]
+        [Authorize(Roles = "Admin,Manager")]
         public ActionResult<RestaurantDto> Get([FromRoute] int RestaurantId)
         {
             var restaurant = _restaurantService.GetById(RestaurantId);
