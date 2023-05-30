@@ -81,6 +81,7 @@ namespace RestaurantAPI
             services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
             services.AddScoped<IValidator<RegisterUserDto>, RegisterUserDtoValidator>();
             services.AddScoped<IUserContextService, UserContextService>();
+            services.AddScoped<IValidator<RestaurantQuery>, RestaurantQueryValidator>();
 
             services.AddScoped<ErrorHandlingMiddleware>();
             services.AddScoped<RequestTimeMiddleware>();                                  // aby dodać middleware krok 3 rejestracja serwisu

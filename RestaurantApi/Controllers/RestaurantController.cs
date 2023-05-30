@@ -61,10 +61,11 @@ namespace RestaurantApi.Controllers
         //[Authorize]
         //[Authorize(Policy = "HasNationality")]  <- można nadać własną zasadę
         //[Authorize(Policy = "Atleast20")]  //  <- można podać naszą zasadę na sprawdzenie wieku
-        [Authorize(Policy = "MinRestCreated")]
-        public ActionResult<IEnumerable<Restaurant>> GetAll()
+        //[Authorize(Policy = "MinRestCreated")]
+        [AllowAnonymous]
+        public ActionResult<IEnumerable<RestaurantDto>> GetAll([FromQuery] RestaurantQuery query)
         {
-            var restaurantsDtos = _restaurantService.GetAll();
+            var restaurantsDtos = _restaurantService.GetAll(query);
 
             return Ok(restaurantsDtos);
         }
