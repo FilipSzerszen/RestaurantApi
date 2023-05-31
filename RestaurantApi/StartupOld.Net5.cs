@@ -71,7 +71,6 @@ namespace RestaurantAPI
             services.AddScoped<IAuthorizationHandler, MinimumRestaurantCreatedHandler>();
 
             services.AddControllers().AddFluentValidation();
-            services.AddDbContext<RestaurantDbContext>();
             services.AddScoped<RestaurantSeeder>();
             services.AddAutoMapper(this.GetType().Assembly);
 
@@ -85,15 +84,34 @@ namespace RestaurantAPI
 
             services.AddScoped<ErrorHandlingMiddleware>();
             services.AddScoped<RequestTimeMiddleware>();                                  // aby dodać middleware krok 3 rejestracja serwisu
-            
+
             services.AddHttpContextAccessor();
 
             services.AddSwaggerGen();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("FrontEndClient", builder =>
+                builder.AllowAnyMethod()
+                .AllowAnyHeader()
+                .WithOrigins(Configuration["AllowedOrigins"])
+                );
+            });
+
+            //services.AddDbContext<RestaurantDbContext>();         //przed wdrożeniem do chmury Azure
+            services.AddDbContext<RestaurantDbContext>(options=>options
+            .UseSqlServer(Configuration
+            .GetConnectionString("RestaurantDbConnection")));
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RestaurantSeeder seeder)
         {
+            app.UseResponseCaching();
+            app.UseStaticFiles();
+            app.UseCors("FrontEndClient");
             seeder.Seed();
             if (env.IsDevelopment())
             {
