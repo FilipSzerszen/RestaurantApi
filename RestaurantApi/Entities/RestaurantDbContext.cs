@@ -2,11 +2,15 @@
 
 namespace RestaurantApi.Entities
 {
-    public class RestaurantDbContext :DbContext
+    public class RestaurantDbContext : DbContext
     {
-        private string _connectionString=
-            "Server=(localdb)\\mssqllocaldb;Database=RestaurantDb;Trusted_Connection=True;";
+        //private string _connectionString=
+        //    "Server=(localdb)\\mssqllocaldb;Database=RestaurantDb;Trusted_Connection=True;";
 
+        public RestaurantDbContext(DbContextOptions<RestaurantDbContext> options) : base(options) //po wdrożeniu do chmury Azure
+        {
+
+        }
 
         public DbSet<Restaurant> Restaurants { get; set; }
         public DbSet<Address> Addresses { get; set; }
@@ -34,7 +38,7 @@ namespace RestaurantApi.Entities
                 .IsRequired();
 
             modelBuilder.Entity<Address>()
-                .Property(c=>c.City)
+                .Property(c => c.City)
                 .IsRequired()
                 .HasMaxLength(50);
             modelBuilder.Entity<Address>()
@@ -43,9 +47,9 @@ namespace RestaurantApi.Entities
                 .HasMaxLength(50);
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(_connectionString);
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)  
+        //{
+        //    optionsBuilder.UseSqlServer(_connectionString);         //przed wdrożeniem do chmury Azure
+        //}
     }
 }
